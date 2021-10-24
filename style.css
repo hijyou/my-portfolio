@@ -1,0 +1,144 @@
+a {
+  text-decoration: none;
+}
+li {
+  font-size: 20px;
+  list-style: none;
+  float: right;
+  padding: 20px 20px;
+}
+#header {
+  background-color: #851b1b;
+  color: #fff;
+  height: 70px;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: #fff;
+}
+#header li:hover a {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+
+/*main*/
+#main {
+  font-family: Yu Mincho;
+  text-align: center;
+  height: 2000px;
+}
+
+#main h1 {
+  padding: 150px 100px;
+}
+
+h2 {
+  display: inline-block;
+  background-color: burlywood;
+  padding: 10px 20px;
+  margin-left: -990px;
+}
+
+.contents {
+  height: 250px;
+  width: 1100px;
+  padding: 50px;
+  margin: 0 auto 250px auto;
+  background-color: rgb(255, 246, 235);
+  text-align: left;
+}
+
+.myprofile p {
+  margin-left: 0px;
+}
+#ayano {
+  margin: -25px 40px 10px -25px;
+  float: left;
+}
+
+/*name*/
+#myprofile #name {
+  float: left;
+}
+
+/*age*/
+#myprofile #age {
+  margin-left: 90px;
+  float: left;
+}
+
+/*university*/
+#myprofile #university {
+  margin-left: 520px;
+}
+
+/*club*/
+#myprofile #club {
+  margin-top: 30px;
+  float: left;
+}
+
+/*seminar*/
+#myprofile #seminar {
+  margin: 30px 0px 0px 120px;
+  float: left;
+}
+
+.clear {
+  clear: both;
+  text-align: left;
+}
+
+img#onepiece {
+  margin-left: 880px;
+  margin-top: -300px;
+}
+img#madoka {
+  margin-left: 720px;
+  margin-top: -70px;
+}
+#hobby p {
+  margin-top: -105px;
+}
+
+img#member {
+  float: left;
+  margin: -40px 0px 50px -40px;
+}
+img#team1 {
+  margin-top: -40px;
+  padding-left: 8px;
+  float: left;
+}
+img#team2 {
+  padding-left: 8px;
+  margin-top: -40px;
+}
+
+.good {
+  text-align: center;
+  float: center;
+}
+
+#goodp {
+  display: inline-block;
+  background-color: rgb(216, 216, 216);
+  font-size: 22px;
+  padding: 10px;
+}
+
+#add-button {
+  margin-top: -20px;
+  font-size: 22px;
+}
+
+img#befor {
+  float: right;
+  margin: 0 0 0 auto;
+}
+.footer {
+  height: 50px;
+  background-color: #851b1b;
+}
